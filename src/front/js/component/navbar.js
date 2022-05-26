@@ -27,6 +27,9 @@ export const Navbar = () => {
 					) : (
 						<button onClick={() => logout()} className="btn btn-primary">Logout</button>
 					)}
+					<Link to="/register">
+						<button className="btn btn-primary">Register</button>
+					</Link>
 				</div>
 			</div>
 		</nav>

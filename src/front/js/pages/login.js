@@ -25,7 +25,7 @@ export const Login = () => {
                 <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
                 <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
                 <button onClick={handleClick}>Login</button>
-                <button onClick={handleClick}>Register</button>
+                <button onClick={handleClick} href='https://3001-4geeksacade-reactflaskh-setqz2nrkzy.ws-us45.gitpod.io/api/signup'>Register</button>
             </div>
         </div>
     );
